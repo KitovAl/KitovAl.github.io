@@ -1,5 +1,7 @@
 header {
     text-align: center;
+    background-color: #E6E6FA;
+    height: 100px;
 }
 nav a {
 
@@ -10,8 +12,6 @@ nav a:hover {
 
 }
 #etusivu {
-    background-color: #E6E6FA;
-    height: 600px;
 }
 #paasivu {
     background-image: url(kuvat/1.jpg);

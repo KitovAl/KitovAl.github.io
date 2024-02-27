@@ -15,4 +15,5 @@ nav a:hover {
 }
 #paasivu {
     background-image: url(kuvat/1.jpg);
+    text-align: center;
 }

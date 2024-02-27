@@ -21,6 +21,9 @@ nav a:hover {
     text-align: center;
     background-image: url(kuvat/1.jpg);
 }
+#meista_osio {
+    background-color: #FEFDFA;
+}
 footer {
     background-color: #374550;
 }

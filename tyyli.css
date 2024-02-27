@@ -4,11 +4,15 @@ header {
     height: 100px;
 }
 nav a {
+    color: #374550;
 
 }
 nav a:hover {
-    color: ;
-    background-color: ;
+    color: black;
+    background-color: white;
+
+}
+#valittu {
 
 }
 #etusivu {

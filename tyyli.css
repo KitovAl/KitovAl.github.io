@@ -1,7 +1,7 @@
 header {
     text-align: center;
     background-color: #E6E6FA;
-    height: 100px;
+    height: 70px;
 }
 nav a {
     color: #374550;
@@ -20,6 +20,7 @@ nav a:hover {
 #paasivu {
     text-align: center;
     background-image: url(kuvat/1.jpg);
+    height: 150px;
 }
 #meista_osio {
     background-color: #FEFDFA;

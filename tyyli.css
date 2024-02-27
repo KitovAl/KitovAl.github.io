@@ -18,8 +18,8 @@ nav a:hover {
 #etusivu {
 }
 #paasivu {
-    background-image: url(kuvat/1.jpg);
     text-align: center;
+    background-image: url(kuvat/1.jpg);
 }
 footer {
     background-color: #374550;

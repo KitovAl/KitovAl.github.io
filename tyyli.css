@@ -12,3 +12,6 @@ nav a:hover {
 #etusivu {
     background-color: #E6E6FA;
 }
+#paasivu {
+    background-image: url(kuvat/1.jpg);
+}

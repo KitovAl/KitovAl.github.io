@@ -17,3 +17,6 @@ nav a:hover {
     background-image: url(kuvat/1.jpg);
     text-align: center;
 }
+footer {
+    background-color: #374550;
+}

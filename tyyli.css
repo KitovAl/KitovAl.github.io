@@ -1,150 +1,208 @@
+/*index*/
+*{ margin: 0%;
+}
+body {
+   height: 100%;
+   width: 100%;
+   position: relative;
+}
 header {
-    text-align: right;
-    font-size: x-large;
-    background-color: #E6E6FA;
-    height: 35vh;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100px;
-    flex-wrap: wrap;
+   text-align: right;
+   font-size: x-large;
+   background-color: #E6E6FA;
+   height: 35vh;
+   max-width: 100%;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100px;
+   flex-wrap: wrap;
 }
 header nav a {
-    color: #374550;
-    text-decoration: none;
-    font-size: 38px;
-    font-weight: lighter;
-    flex-wrap: wrap;
+   color: #374550;
+   text-decoration: none;
+   font-size: 38px;
+   font-weight: lighter;
+   flex-wrap: wrap;
 }
 header nav a:hover {
-    font-weight: bold;
+   font-weight: bold;
 }
 header nav {
-    height: 90%;
-    width: 45%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+   height: 90%;
+   width: 45%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
 }
 header h1 {
-    height: 90%;
-    width: 45%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 36px;
-    font-weight: lighter;
-    flex-wrap: wrap
+   height: 90%;
+   width: 45%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 36px;
+   font-weight: lighter;
+   flex-wrap: wrap
 }
 header h1 span {
-    background-color: white;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-iframe {
-    overflow-clip-margin: content-box !important;
-    overflow: clip !important;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}
-#kartta {
-    padding: 20px;
-    max-width: 90%;
+   background-color: white;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
 }
 #valittu {
-    font-weight: bold;
+   font-weight: bold;
 }
 .paasivu {
-    text-align: center;
-    background-image: url(1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 90vh;
-    margin: 0;
-    padding: 50px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   text-align: center;
+   background-image: url(1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 80vh;
+   margin: 0;
+   padding: 50px;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
 }
 #slogan {
-    font-size: 50px;
-    color:#FEFDFA;
-    text-shadow: 4px 4px black;
-}
-.paasivu-yhteys {
-    text-align: center;
-    background-image: url(1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 70vh;
-    margin: 0;
-    padding: 50px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   font-size: 50px;
+   color:#FEFDFA;
+   text-shadow: 4px 4px black;
 }
 .paasivu h1 {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 .toimintakehote {
-    align-self: self-end;
-    width: 300px;
-    height: 70px;
-    border-radius: 30px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
+   align-self: self-end;
+   width: 300px;
+   height: 70px;
+   border-radius: 30px;
+   font-size: 20px;
+   border: none;
+   cursor: pointer;
 }
 .toimintakehote-linkki {
-    width: 300px;
-    height: 70px;
+   width: 300px;
+   height: 70px;
 }
 .toimintakehote:hover {
-    background-color: black;
-    color: white;
-}
-.osoite-kartta {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #FEFDFA;
-    width: 800px;
+   background-color: black;
+   color: white;
 }
 #meista-osio {
-    background-color: #FEFDFA;
-    height: 300px;
-    padding: 50px;
+   background-color: #FEFDFA;
+   height: 300px;
+   padding: 50px;
 }
 #meista-osio p {
-    margin-top: 20px;
-    font-size: 20px;
+   margin-top: 20px;
+   font-size: 20px;
 }
 #meista-osio h2 {
-    font-size: 50px;
+   font-size: 50px;
 }
 footer {
-    background-color: #374550;
-    height: 40px;
-    padding: 20px;
-    font-size: 20px;
+   background-color: #374550;
+   height: auto;
+   width: 100%;
+   padding: 15px;
+   bottom: 0;
+   position: fixed;
+   text-align: left;
 }
-*{ margin: 0%; }
+
+/*tuotteet-sivu*/
+.paasivu-tuotteet {
+   text-align: center;
+   background-image: url(1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: auto;
+   margin: 0;
+   padding: 50px;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.tuote {
+   width: 90%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.tuote-laji {
+   background-color: #FEFDFA;
+   height: 50vh;
+   width: 50vh;
+}
+.tuotteet-kuva {
+   height: 180px;
+   width: 280px;
+}
+/*yhteys-sivu*/
+.paasivu-yhteys {
+   text-align: center;
+   background-image: url(1.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: auto;
+   margin: 0;
+   padding: 50px;
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.osoite-kartta {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: #FEFDFA;
+   width: 800px;
+   height: 400px;
+}
+iframe {
+   overflow-clip-margin: content-box !important;
+   overflow: clip !important;
+   border-width: 2px;
+   border-style: inset;
+   border-color: initial;
+   border-image: initial;
+}
+#kartta {
+   padding: 20px;
+   max-width: 90%;
+   height: 250px;
+   width: 350px;
+
+}
+/*mobiilikoko*/
+@media (max-width: 600px) {
+   .osoite-kartta {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+}

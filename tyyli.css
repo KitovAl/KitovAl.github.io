@@ -207,7 +207,6 @@ footer {
 }
 iframe {
    font-family: "Nunito Sans", sans-serif;
-   overflow-clip-margin: content-box !important;
    overflow: clip !important;
    border-width: 2px;
    border-style: inset;

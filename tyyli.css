@@ -63,7 +63,7 @@ header h1 span {
 }
 .paasivu {
    text-align: center;
-   background-image: url(1.jpg);
+   background-image: url(kuvat/1.jpg);
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
@@ -127,7 +127,7 @@ footer {
 /*tuotteet-sivu*/
 .paasivu-tuotteet {
    text-align: center;
-   background-image: url(1.jpg);
+   background-image: url(kuvat/1.jpg);
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
@@ -159,7 +159,7 @@ footer {
 /*yhteys-sivu*/
 .paasivu-yhteys {
    text-align: center;
-   background-image: url(1.jpg);
+   background-image: url(kuvat/1.jpg);
    background-position: center;
    background-size: cover;
    background-attachment: fixed;

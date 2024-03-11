@@ -2,11 +2,13 @@
 *{ margin: 0%;
 }
 body {
+   font-family: "Nunito Sans", sans-serif;
    height: 100%;
    width: 100%;
    position: relative;
 }
 header {
+   font-family: "Nunito Sans", sans-serif;
    text-align: right;
    font-size: x-large;
    background-color: #E6E6FA;
@@ -21,6 +23,7 @@ header {
    flex-wrap: wrap;
 }
 header nav a {
+   font-family: "Nunito Sans", sans-serif;
    color: #374550;
    text-decoration: none;
    font-size: 38px;
@@ -28,9 +31,11 @@ header nav a {
    flex-wrap: wrap;
 }
 header nav a:hover {
+   font-family: "Nunito Sans", sans-serif;
    font-weight: bold;
 }
 header nav {
+   font-family: "Nunito Sans", sans-serif;
    height: 90%;
    width: 45%;
    display: flex;
@@ -39,6 +44,7 @@ header nav {
    flex-wrap: wrap;
 }
 header h1 {
+   font-family: "Nunito Sans", sans-serif;
    height: 90%;
    width: 45%;
    display: flex;
@@ -49,6 +55,7 @@ header h1 {
    flex-wrap: wrap
 }
 header h1 span {
+   font-family: "Nunito Sans", sans-serif;
    background-color: white;
    width: 80px;
    height: 80px;
@@ -59,9 +66,11 @@ header h1 span {
    flex-wrap: wrap;
 }
 #valittu {
+   font-family: "Nunito Sans", sans-serif;
    font-weight: bold;
 }
 .paasivu {
+   font-family: "Nunito Sans", sans-serif;
    text-align: center;
    background-image: url(kuvat/1.jpg);
    background-position: center;
@@ -77,15 +86,18 @@ header h1 span {
    align-items: center;
 }
 #slogan {
+   font-family: "Nunito Sans", sans-serif;
    font-size: 50px;
    color:#FEFDFA;
    text-shadow: 4px 4px black;
 }
 .paasivu h1 {
+   font-family: "Nunito Sans", sans-serif;
    margin: 0;
    padding: 0;
 }
 .toimintakehote {
+   font-family: "Nunito Sans", sans-serif;
    align-self: self-end;
    width: 300px;
    height: 70px;
@@ -95,26 +107,32 @@ header h1 span {
    cursor: pointer;
 }
 .toimintakehote-linkki {
+   font-family: "Nunito Sans", sans-serif;
    width: 300px;
    height: 70px;
 }
 .toimintakehote:hover {
+   font-family: "Nunito Sans", sans-serif;
    background-color: black;
    color: white;
 }
 #meista-osio {
+   font-family: "Nunito Sans", sans-serif;
    background-color: #FEFDFA;
    height: 300px;
    padding: 50px;
 }
 #meista-osio p {
+   font-family: "Nunito Sans", sans-serif;
    margin-top: 20px;
    font-size: 20px;
 }
 #meista-osio h2 {
+   font-family: "Nunito Sans", sans-serif;
    font-size: 50px;
 }
 footer {
+   font-family: "Nunito Sans", sans-serif;
    background-color: #374550;
    height: auto;
    width: 100%;
@@ -126,6 +144,7 @@ footer {
 
 /*tuotteet-sivu*/
 .paasivu-tuotteet {
+   font-family: "Nunito Sans", sans-serif;
    text-align: center;
    background-image: url(kuvat/1.jpg);
    background-position: center;
@@ -141,6 +160,7 @@ footer {
    align-items: center;
 }
 .tuote {
+   font-family: "Nunito Sans", sans-serif;
    width: 90%;
    display: flex;
    justify-content: space-evenly;
@@ -148,16 +168,19 @@ footer {
    flex-wrap: wrap;
 }
 .tuote-laji {
+   font-family: "Nunito Sans", sans-serif;
    background-color: #FEFDFA;
    height: 50vh;
    width: 50vh;
 }
 .tuotteet-kuva {
+   font-family: "Nunito Sans", sans-serif;
    height: 180px;
    width: 280px;
 }
 /*yhteys-sivu*/
 .paasivu-yhteys {
+   font-family: "Nunito Sans", sans-serif;
    text-align: center;
    background-image: url(kuvat/1.jpg);
    background-position: center;
@@ -173,6 +196,7 @@ footer {
    align-items: center;
 }
 .osoite-kartta {
+   font-family: "Nunito Sans", sans-serif;
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
@@ -182,6 +206,7 @@ footer {
    height: 400px;
 }
 iframe {
+   font-family: "Nunito Sans", sans-serif;
    overflow-clip-margin: content-box !important;
    overflow: clip !important;
    border-width: 2px;
@@ -190,6 +215,7 @@ iframe {
    border-image: initial;
 }
 #kartta {
+   font-family: "Nunito Sans", sans-serif;
    padding: 20px;
    max-width: 90%;
    height: 250px;
@@ -199,6 +225,7 @@ iframe {
 /*mobiilikoko*/
 @media (max-width: 600px) {
    .osoite-kartta {
+      font-family: "Nunito Sans", sans-serif;
        width: 100%;
        display: flex;
        flex-direction: column;
@@ -206,3 +233,5 @@ iframe {
        align-items: center;
    }
 }
+/*fontti*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap')
